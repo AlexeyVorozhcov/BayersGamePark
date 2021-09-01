@@ -1,6 +1,7 @@
 INFO : my_json  :  read_from_jsonFile : START - чтение json-файла settings.txt
 INFO : my_json  :  read_from_jsonFile : Прочитано успешно
 DEBUG : my_json  :  is_dict : Полученные данные - словарь.
+DEBUG : settings  :  <module> : Папка C:\Users\alexe\PycharmProjects\buyers 4.0\SAVED FILES не найдена. Будет создана новая.
 DEBUG : __main__  :  <module> : Старт основной программы
 INFO : journal  :  log : --------------------
 INFO : journal  :  log : Программа запущена
