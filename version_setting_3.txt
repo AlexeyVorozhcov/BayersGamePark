@@ -1,0 +1,6 @@
+{
+    "version": "23.06.2021",
+    "archive": "setting.zip",
+    "is_downloaded": true,
+    "is_unzipped": true
+}

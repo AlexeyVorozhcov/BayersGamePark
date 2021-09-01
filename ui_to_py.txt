@@ -1,0 +1,46 @@
+pyuic5 v1.ui -o v1.py
+pyuic5 catalog_ui.ui -o catalog_ui.py
+pyuic5 catalog.ui -o catalog.py
+
+pyuic5 v3.ui -o v3.py
+
+pyinstaller main.spec --icon=01.ico
+
+
+План.
+Скачивает архив обновления, сохраняет его
+В файл downloading.txt записать, что архив скачан, но не распакован - просто название файла, готового к распаковке
+Добавить проверку - если в этом файле есть запись, то в основном окне программы написать, что обновление готово к установке.
+При нажатии обновить, программа запускает программу обновления и закрывается
+
+Программа обновления проверяет этот файл, находит в нем название архива
+Делает паузу 15 секунд для того, чтобы основная программа точно закрылась
+Из папки программы делает копию файла параметров
+Разпаковывет архив
+Перемещает обратно файл параметров
+Удаляет из файла название архива, который только что установлен
+
+
+from num2words import num2words
+num2words (45590, lang = 'ru')
+
+http://q920294x.beget.tech/files/version.txt
+import urllib.request, urllib.parse, urllib.error
+
+urllib.request.urlretrieve('http://q920294x.beget.tech/files/version.txt', 'version.txt')
+
+import urllib.request
+opener=urllib.request.build_opener()
+opener.addheaders=[('User-Agent','Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1941.0 Safari/537.36')]
+urllib.request.install_opener(opener)
+url='http://q920294x.beget.tech/files/version.txt'
+local='version.txt'
+urllib.request.urlretrieve(url,local)
+
+
+
+from urllib.request import urlretrieve
+
+url = 'http://q920294x.beget.tech/files/version.txt'
+destination = url.rsplit('/',1)[1]
+urlretrieve(url, destination)

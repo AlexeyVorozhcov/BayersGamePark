@@ -1,0 +1,125 @@
+INFO : my_json  :  read_from_jsonFile : START - чтение json-файла settings.txt
+INFO : my_json  :  read_from_jsonFile : Прочитано успешно
+DEBUG : my_json  :  is_dict : Полученные данные - словарь.
+DEBUG : __main__  :  <module> : Старт основной программы
+INFO : journal  :  log : --------------------
+INFO : journal  :  log : Программа запущена
+INFO : journal  :  log : --------------------
+INFO : my_ui.ui_datas  :  load_data : Запуск загрузки данных элементов из файла
+INFO : my_json  :  read_from_jsonFile : START - чтение json-файла data.pickle
+ERROR : my_json  :  read_from_jsonFile : Ошибка
+Traceback (most recent call last):
+  File "my_json.py", line 29, in read_from_jsonFile
+FileNotFoundError: [Errno 2] No such file or directory: 'data.pickle'
+DEBUG : my_json  :  is_dict : Полученные данные не словарь. <class 'NoneType'>
+INFO : my_ui.ui_datas  :  load_data : Загрузка данных из файла data.pickle завершена.
+INFO : updates  :  run : Старт потока обновления version_setting_3.txt
+INFO : journal  :  log : Старт потока обновления version_setting_3.txt
+DEBUG : downloading  :  run_downloading : Старт скачивания файла http://q920294x.beget.tech/files/version_setting_3.txt
+DEBUG : downloading  :  run_downloading : Успешно скачано в C:\Users\alexe\PycharmProjects\buyers 4.0\dist\Buyers-test-5\downloaded_version_setting_3.txt
+DEBUG : updates  :  _create_info : Создание объектов local_data и url_data
+INFO : updates_data  :  __init__ : Получение данных из информационного файла C:\Users\alexe\PycharmProjects\buyers 4.0\dist\Buyers-test-5\version_setting_3.txt
+INFO : my_json  :  read_from_jsonFile : START - чтение json-файла C:\Users\alexe\PycharmProjects\buyers 4.0\dist\Buyers-test-5\version_setting_3.txt
+INFO : my_json  :  read_from_jsonFile : Прочитано успешно
+DEBUG : my_json  :  is_dict : Полученные данные - словарь.
+INFO : updates_data  :  __init__ : Получение данных из информационного файла C:\Users\alexe\PycharmProjects\buyers 4.0\dist\Buyers-test-5\downloaded_version_setting_3.txt
+INFO : my_json  :  read_from_jsonFile : START - чтение json-файла C:\Users\alexe\PycharmProjects\buyers 4.0\dist\Buyers-test-5\downloaded_version_setting_3.txt
+INFO : my_json  :  read_from_jsonFile : Прочитано успешно
+DEBUG : my_json  :  is_dict : Полученные данные - словарь.
+DEBUG : updates  :  _create_info : Временный файл удален - C:\Users\alexe\PycharmProjects\buyers 4.0\dist\Buyers-test-5\downloaded_version_setting_3.txt
+DEBUG : updates  :  _version_checking : Сравнение названий версий в local_data и url_data
+DEBUG : updates  :  _version_checking : Урл-версия - 23.06.2021
+DEBUG : updates  :  _version_checking : Локальная версия - 21.06.2021
+DEBUG : updates  :  _version_checking : Версии не равны, сейчас будет скачиваться архив.
+DEBUG : downloading  :  run_downloading : Старт скачивания файла http://q920294x.beget.tech/files/setting.zip
+DEBUG : downloading  :  run_downloading : Успешно скачано в C:\Users\alexe\PycharmProjects\buyers 4.0\dist\Buyers-test-5\setting.zip
+INFO : updates  :  _update_info_after_downloading_archive : Обновляю данные в local_data
+INFO : updates_data  :  save : Запись словаря в информационный файл C:\Users\alexe\PycharmProjects\buyers 4.0\dist\Buyers-test-5\version_setting_3.txt
+INFO : updates_data  :  save : {'version': '23.06.2021', 'archive': 'setting.zip', 'is_downloaded': True, 'is_unzipped': False}
+INFO : my_json  :  write_in_jsonFile : START - запись json-файла C:\Users\alexe\PycharmProjects\buyers 4.0\dist\Buyers-test-5\version_setting_3.txt.
+INFO : my_json  :  write_in_jsonFile : Записано успешно
+DEBUG : updates  :  _checking_unpacking_is_necessary : Проверка необходимости распаковки сразу после скачивания
+DEBUG : updates  :  _unzipped_archive : Сейчас буду распаковывать архив: setting.zip
+DEBUG : updates  :  _unzipped_archive : Архив распакован успешно
+DEBUG : updates  :  _unzipped_archive : Распакованный архив удален
+DEBUG : updates  :  _update_info_after_unzipped_archive : Обновление local_info после распаковки архива
+INFO : updates_data  :  save : Запись словаря в информационный файл C:\Users\alexe\PycharmProjects\buyers 4.0\dist\Buyers-test-5\version_setting_3.txt
+INFO : updates_data  :  save : {'version': '23.06.2021', 'archive': 'setting.zip', 'is_downloaded': True, 'is_unzipped': True}
+INFO : my_json  :  write_in_jsonFile : START - запись json-файла C:\Users\alexe\PycharmProjects\buyers 4.0\dist\Buyers-test-5\version_setting_3.txt.
+INFO : my_json  :  write_in_jsonFile : Записано успешно
+DEBUG : updates  :  _checking_previous_download : Проверка version_setting_3.txt на наличие ранее скачанного, но не распакованного архива
+DEBUG : updates  :  _checking_previous_download : Нет нераспакованного архива
+INFO : updates  :  run : Старт потока обновления version_templates_3.txt
+INFO : journal  :  log : Старт потока обновления version_templates_3.txt
+DEBUG : downloading  :  run_downloading : Старт скачивания файла http://q920294x.beget.tech/files/version_templates_3.txt
+DEBUG : downloading  :  run_downloading : Успешно скачано в C:\Users\alexe\PycharmProjects\buyers 4.0\dist\Buyers-test-5\downloaded_version_templates_3.txt
+DEBUG : updates  :  _create_info : Создание объектов local_data и url_data
+INFO : updates_data  :  __init__ : Получение данных из информационного файла C:\Users\alexe\PycharmProjects\buyers 4.0\dist\Buyers-test-5\version_templates_3.txt
+INFO : my_json  :  read_from_jsonFile : START - чтение json-файла C:\Users\alexe\PycharmProjects\buyers 4.0\dist\Buyers-test-5\version_templates_3.txt
+INFO : my_json  :  read_from_jsonFile : Прочитано успешно
+DEBUG : my_json  :  is_dict : Полученные данные - словарь.
+INFO : updates_data  :  __init__ : Получение данных из информационного файла C:\Users\alexe\PycharmProjects\buyers 4.0\dist\Buyers-test-5\downloaded_version_templates_3.txt
+INFO : my_json  :  read_from_jsonFile : START - чтение json-файла C:\Users\alexe\PycharmProjects\buyers 4.0\dist\Buyers-test-5\downloaded_version_templates_3.txt
+INFO : my_json  :  read_from_jsonFile : Прочитано успешно
+DEBUG : my_json  :  is_dict : Полученные данные - словарь.
+DEBUG : updates  :  _create_info : Временный файл удален - C:\Users\alexe\PycharmProjects\buyers 4.0\dist\Buyers-test-5\downloaded_version_templates_3.txt
+DEBUG : updates  :  _version_checking : Сравнение названий версий в local_data и url_data
+DEBUG : updates  :  _version_checking : Урл-версия - 21.06.2021
+DEBUG : updates  :  _version_checking : Локальная версия - 21.06.2021
+DEBUG : updates  :  run : StopUpdate: Версии равны.
+INFO : journal  :  log : StopUpdate: Версии равны.
+DEBUG : updates  :  _checking_previous_download : Проверка version_templates_3.txt на наличие ранее скачанного, но не распакованного архива
+DEBUG : updates  :  _checking_previous_download : Нет нераспакованного архива
+INFO : updates  :  run : Старт потока обновления version_update_3.txt
+INFO : journal  :  log : Старт потока обновления version_update_3.txt
+DEBUG : downloading  :  run_downloading : Старт скачивания файла http://q920294x.beget.tech/files/version_update_3.txt
+DEBUG : downloading  :  run_downloading : Успешно скачано в C:\Users\alexe\PycharmProjects\buyers 4.0\dist\Buyers-test-5\downloaded_version_update_3.txt
+DEBUG : updates  :  _create_info : Создание объектов local_data и url_data
+INFO : updates_data  :  __init__ : Получение данных из информационного файла C:\Users\alexe\PycharmProjects\buyers 4.0\dist\Buyers-test-5\version_update_3.txt
+INFO : my_json  :  read_from_jsonFile : START - чтение json-файла C:\Users\alexe\PycharmProjects\buyers 4.0\dist\Buyers-test-5\version_update_3.txt
+INFO : my_json  :  read_from_jsonFile : Прочитано успешно
+DEBUG : my_json  :  is_dict : Полученные данные - словарь.
+INFO : updates_data  :  __init__ : Получение данных из информационного файла C:\Users\alexe\PycharmProjects\buyers 4.0\dist\Buyers-test-5\downloaded_version_update_3.txt
+INFO : my_json  :  read_from_jsonFile : START - чтение json-файла C:\Users\alexe\PycharmProjects\buyers 4.0\dist\Buyers-test-5\downloaded_version_update_3.txt
+INFO : my_json  :  read_from_jsonFile : Прочитано успешно
+DEBUG : my_json  :  is_dict : Полученные данные - словарь.
+DEBUG : updates  :  _create_info : Временный файл удален - C:\Users\alexe\PycharmProjects\buyers 4.0\dist\Buyers-test-5\downloaded_version_update_3.txt
+DEBUG : updates  :  _version_checking : Сравнение названий версий в local_data и url_data
+DEBUG : updates  :  _version_checking : Урл-версия - 21.05.2021
+DEBUG : updates  :  _version_checking : Локальная версия - 21.05.2021
+DEBUG : updates  :  run : StopUpdate: Версии равны.
+INFO : journal  :  log : StopUpdate: Версии равны.
+DEBUG : updates  :  _checking_previous_download : Проверка version_update_3.txt на наличие ранее скачанного, но не распакованного архива
+DEBUG : updates  :  _checking_previous_download : Нет нераспакованного архива
+INFO : updates  :  run : Старт потока обновления version_program_3.txt
+INFO : journal  :  log : Старт потока обновления version_program_3.txt
+DEBUG : downloading  :  run_downloading : Старт скачивания файла http://q920294x.beget.tech/files/version_program_3.txt
+DEBUG : downloading  :  run_downloading : Успешно скачано в C:\Users\alexe\PycharmProjects\buyers 4.0\dist\Buyers-test-5\downloaded_version_program_3.txt
+DEBUG : updates  :  _create_info : Создание объектов local_data и url_data
+INFO : updates_data  :  __init__ : Получение данных из информационного файла C:\Users\alexe\PycharmProjects\buyers 4.0\dist\Buyers-test-5\version_program_3.txt
+INFO : my_json  :  read_from_jsonFile : START - чтение json-файла C:\Users\alexe\PycharmProjects\buyers 4.0\dist\Buyers-test-5\version_program_3.txt
+INFO : my_json  :  read_from_jsonFile : Прочитано успешно
+DEBUG : my_json  :  is_dict : Полученные данные - словарь.
+INFO : updates_data  :  __init__ : Получение данных из информационного файла C:\Users\alexe\PycharmProjects\buyers 4.0\dist\Buyers-test-5\downloaded_version_program_3.txt
+INFO : my_json  :  read_from_jsonFile : START - чтение json-файла C:\Users\alexe\PycharmProjects\buyers 4.0\dist\Buyers-test-5\downloaded_version_program_3.txt
+INFO : my_json  :  read_from_jsonFile : Прочитано успешно
+DEBUG : my_json  :  is_dict : Полученные данные - словарь.
+DEBUG : updates  :  _create_info : Временный файл удален - C:\Users\alexe\PycharmProjects\buyers 4.0\dist\Buyers-test-5\downloaded_version_program_3.txt
+DEBUG : updates  :  _version_checking : Сравнение названий версий в local_data и url_data
+DEBUG : updates  :  _version_checking : Урл-версия - 21.06.2021
+DEBUG : updates  :  _version_checking : Локальная версия - 21.06.2021
+DEBUG : updates  :  run : StopUpdate: Версии равны.
+INFO : journal  :  log : StopUpdate: Версии равны.
+DEBUG : updates  :  _checking_previous_download : Проверка version_program_3.txt на наличие ранее скачанного, но не распакованного архива
+DEBUG : updates  :  _checking_previous_download : Нет нераспакованного архива
+INFO : my_ui.ui_datas  :  load_data : Запуск загрузки данных элементов из файла
+ERROR : root  :  load_data : StopProcess: Имя файла для открытия - пустое, загрузки не будет
+INFO : my_ui.ui_datas  :  load_data : Загрузка данных из файла  завершена.
+INFO : my_ui.ui_datas  :  load_data : Запуск загрузки данных элементов из файла
+INFO : my_json  :  read_from_jsonFile : START - чтение json-файла data.pickle
+ERROR : my_json  :  read_from_jsonFile : Ошибка
+Traceback (most recent call last):
+  File "my_json.py", line 29, in read_from_jsonFile
+FileNotFoundError: [Errno 2] No such file or directory: 'data.pickle'
+DEBUG : my_json  :  is_dict : Полученные данные не словарь. <class 'NoneType'>
+INFO : my_ui.ui_datas  :  load_data : Загрузка данных из файла data.pickle завершена.

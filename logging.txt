@@ -1,0 +1,109 @@
+INFO : my_json  :  read_from_jsonFile : START - чтение json-файла settings.txt
+INFO : my_json  :  read_from_jsonFile : Прочитано успешно
+DEBUG : my_json  :  is_dict : Полученные данные - словарь.
+DEBUG : __main__  :  <module> : Старт основной программы
+INFO : journal  :  log : --------------------
+INFO : journal  :  log : Программа запущена
+INFO : journal  :  log : --------------------
+INFO : my_ui.ui_datas  :  load_data : Запуск загрузки данных элементов из файла
+INFO : my_json  :  read_from_jsonFile : START - чтение json-файла data.pickle
+INFO : my_json  :  read_from_jsonFile : Прочитано успешно
+DEBUG : my_json  :  is_dict : Полученные данные - словарь.
+INFO : my_ui.ui_datas  :  load_data : Загрузка данных из файла data.pickle завершена.
+INFO : updates  :  run : Старт потока обновления version_setting_3.txt
+INFO : journal  :  log : Старт потока обновления version_setting_3.txt
+DEBUG : downloading  :  run_downloading : Старт скачивания файла http://q920294x.beget.tech/files/version_setting_3.txt
+DEBUG : downloading  :  run_downloading : Успешно скачано в C:\Users\alexe\PycharmProjects\buyers 4.0\downloaded_version_setting_3.txt
+DEBUG : updates  :  _create_info : Создание объектов local_data и url_data
+INFO : updates_data  :  __init__ : Получение данных из информационного файла C:\Users\alexe\PycharmProjects\buyers 4.0\version_setting_3.txt
+INFO : my_json  :  read_from_jsonFile : START - чтение json-файла C:\Users\alexe\PycharmProjects\buyers 4.0\version_setting_3.txt
+INFO : my_json  :  read_from_jsonFile : Прочитано успешно
+DEBUG : my_json  :  is_dict : Полученные данные - словарь.
+INFO : updates_data  :  __init__ : Получение данных из информационного файла C:\Users\alexe\PycharmProjects\buyers 4.0\downloaded_version_setting_3.txt
+INFO : my_json  :  read_from_jsonFile : START - чтение json-файла C:\Users\alexe\PycharmProjects\buyers 4.0\downloaded_version_setting_3.txt
+INFO : my_json  :  read_from_jsonFile : Прочитано успешно
+DEBUG : my_json  :  is_dict : Полученные данные - словарь.
+DEBUG : updates  :  _create_info : Временный файл удален - C:\Users\alexe\PycharmProjects\buyers 4.0\downloaded_version_setting_3.txt
+DEBUG : updates  :  _version_checking : Сравнение названий версий в local_data и url_data
+DEBUG : updates  :  _version_checking : Урл-версия - 23.06.2021
+DEBUG : updates  :  _version_checking : Локальная версия - 23.06.2021
+DEBUG : updates  :  run : StopUpdate: Версии равны.
+INFO : journal  :  log : StopUpdate: Версии равны.
+DEBUG : updates  :  _checking_previous_download : Проверка version_setting_3.txt на наличие ранее скачанного, но не распакованного архива
+DEBUG : updates  :  _checking_previous_download : Нет нераспакованного архива
+INFO : updates  :  run : Старт потока обновления version_templates_3.txt
+INFO : journal  :  log : Старт потока обновления version_templates_3.txt
+DEBUG : downloading  :  run_downloading : Старт скачивания файла http://q920294x.beget.tech/files/version_templates_3.txt
+DEBUG : downloading  :  run_downloading : Успешно скачано в C:\Users\alexe\PycharmProjects\buyers 4.0\downloaded_version_templates_3.txt
+DEBUG : updates  :  _create_info : Создание объектов local_data и url_data
+INFO : updates_data  :  __init__ : Получение данных из информационного файла C:\Users\alexe\PycharmProjects\buyers 4.0\version_templates_3.txt
+INFO : my_json  :  read_from_jsonFile : START - чтение json-файла C:\Users\alexe\PycharmProjects\buyers 4.0\version_templates_3.txt
+INFO : my_json  :  read_from_jsonFile : Прочитано успешно
+DEBUG : my_json  :  is_dict : Полученные данные - словарь.
+INFO : updates_data  :  __init__ : Получение данных из информационного файла C:\Users\alexe\PycharmProjects\buyers 4.0\downloaded_version_templates_3.txt
+INFO : my_json  :  read_from_jsonFile : START - чтение json-файла C:\Users\alexe\PycharmProjects\buyers 4.0\downloaded_version_templates_3.txt
+INFO : my_json  :  read_from_jsonFile : Прочитано успешно
+DEBUG : my_json  :  is_dict : Полученные данные - словарь.
+DEBUG : updates  :  _create_info : Временный файл удален - C:\Users\alexe\PycharmProjects\buyers 4.0\downloaded_version_templates_3.txt
+DEBUG : updates  :  _version_checking : Сравнение названий версий в local_data и url_data
+DEBUG : updates  :  _version_checking : Урл-версия - 21.06.2021
+DEBUG : updates  :  _version_checking : Локальная версия - 21.06.2021
+DEBUG : updates  :  run : StopUpdate: Версии равны.
+INFO : journal  :  log : StopUpdate: Версии равны.
+DEBUG : updates  :  _checking_previous_download : Проверка version_templates_3.txt на наличие ранее скачанного, но не распакованного архива
+DEBUG : updates  :  _checking_previous_download : Нет нераспакованного архива
+INFO : updates  :  run : Старт потока обновления version_update_3.txt
+INFO : journal  :  log : Старт потока обновления version_update_3.txt
+DEBUG : downloading  :  run_downloading : Старт скачивания файла http://q920294x.beget.tech/files/version_update_3.txt
+DEBUG : downloading  :  run_downloading : Успешно скачано в C:\Users\alexe\PycharmProjects\buyers 4.0\downloaded_version_update_3.txt
+DEBUG : updates  :  _create_info : Создание объектов local_data и url_data
+INFO : updates_data  :  __init__ : Получение данных из информационного файла C:\Users\alexe\PycharmProjects\buyers 4.0\version_update_3.txt
+INFO : my_json  :  read_from_jsonFile : START - чтение json-файла C:\Users\alexe\PycharmProjects\buyers 4.0\version_update_3.txt
+INFO : my_json  :  read_from_jsonFile : Прочитано успешно
+DEBUG : my_json  :  is_dict : Полученные данные - словарь.
+INFO : updates_data  :  __init__ : Получение данных из информационного файла C:\Users\alexe\PycharmProjects\buyers 4.0\downloaded_version_update_3.txt
+INFO : my_json  :  read_from_jsonFile : START - чтение json-файла C:\Users\alexe\PycharmProjects\buyers 4.0\downloaded_version_update_3.txt
+INFO : my_json  :  read_from_jsonFile : Прочитано успешно
+DEBUG : my_json  :  is_dict : Полученные данные - словарь.
+DEBUG : updates  :  _create_info : Временный файл удален - C:\Users\alexe\PycharmProjects\buyers 4.0\downloaded_version_update_3.txt
+DEBUG : updates  :  _version_checking : Сравнение названий версий в local_data и url_data
+DEBUG : updates  :  _version_checking : Урл-версия - 21.05.2021
+DEBUG : updates  :  _version_checking : Локальная версия - 21.05.2021
+DEBUG : updates  :  run : StopUpdate: Версии равны.
+INFO : journal  :  log : StopUpdate: Версии равны.
+DEBUG : updates  :  _checking_previous_download : Проверка version_update_3.txt на наличие ранее скачанного, но не распакованного архива
+DEBUG : updates  :  _checking_previous_download : Нет нераспакованного архива
+INFO : updates  :  run : Старт потока обновления version_program_3.txt
+INFO : journal  :  log : Старт потока обновления version_program_3.txt
+DEBUG : downloading  :  run_downloading : Старт скачивания файла http://q920294x.beget.tech/files/version_program_3.txt
+DEBUG : downloading  :  run_downloading : Успешно скачано в C:\Users\alexe\PycharmProjects\buyers 4.0\downloaded_version_program_3.txt
+DEBUG : updates  :  _create_info : Создание объектов local_data и url_data
+INFO : updates_data  :  __init__ : Получение данных из информационного файла C:\Users\alexe\PycharmProjects\buyers 4.0\version_program_3.txt
+INFO : my_json  :  read_from_jsonFile : START - чтение json-файла C:\Users\alexe\PycharmProjects\buyers 4.0\version_program_3.txt
+INFO : my_json  :  read_from_jsonFile : Прочитано успешно
+DEBUG : my_json  :  is_dict : Полученные данные - словарь.
+INFO : updates_data  :  __init__ : Получение данных из информационного файла C:\Users\alexe\PycharmProjects\buyers 4.0\downloaded_version_program_3.txt
+INFO : my_json  :  read_from_jsonFile : START - чтение json-файла C:\Users\alexe\PycharmProjects\buyers 4.0\downloaded_version_program_3.txt
+INFO : my_json  :  read_from_jsonFile : Прочитано успешно
+DEBUG : my_json  :  is_dict : Полученные данные - словарь.
+DEBUG : updates  :  _create_info : Временный файл удален - C:\Users\alexe\PycharmProjects\buyers 4.0\downloaded_version_program_3.txt
+DEBUG : updates  :  _version_checking : Сравнение названий версий в local_data и url_data
+DEBUG : updates  :  _version_checking : Урл-версия - 21.06.2021
+DEBUG : updates  :  _version_checking : Локальная версия - 21.06.2021
+DEBUG : updates  :  run : StopUpdate: Версии равны.
+INFO : journal  :  log : StopUpdate: Версии равны.
+DEBUG : updates  :  _checking_previous_download : Проверка version_program_3.txt на наличие ранее скачанного, но не распакованного архива
+DEBUG : updates  :  _checking_previous_download : Нет нераспакованного архива
+DEBUG : my_chatBot.chatBot_2  :  _report : Принята команда: Commands.to_start
+DEBUG : my_chatBot.chatBot_2  :  _report : Выполняется команда to_start
+DEBUG : my_chatBot.chatBot_2  :  _report : Сейчас будет пауза
+DEBUG : my_chatBot.chatBot_2  :  _report : Принята команда: Commands.to_next
+DEBUG : my_chatBot.chatBot_2  :  _report : Выполняется команда to_next
+DEBUG : my_chatBot.chatBot_2  :  _report : Сейчас будет пауза
+INFO : journal  :  log : Запущен помощник приемки Лего
+DEBUG : my_chatBot.chatBot_2  :  _report : Принята команда: Commands.to_next
+DEBUG : my_chatBot.chatBot_2  :  _report : Выполняется команда to_next
+DEBUG : my_chatBot.chatBot_2  :  _report : Сейчас будет пауза
+DEBUG : my_chatBot.chatBot_2  :  _report : Принята команда: Commands.to_next
+DEBUG : my_chatBot.chatBot_2  :  _report : Выполняется команда to_next
+DEBUG : my_chatBot.chatBot_2  :  _report : Сейчас будет пауза
