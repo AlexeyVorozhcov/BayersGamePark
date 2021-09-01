@@ -1,6 +1,6 @@
 {
     "VERSION": "4.00 from 21.06.21",
-    "MODE_IS_DEBUG": false,
+    "MODE_IS_DEBUG": true,
     "FILENAME_ICON": "icon.ico",
     "name_FILE_REQUISITES": "data.pickle",
     "CERTIFICATE_PERIOD": 6,
