@@ -1,6 +1,0 @@
-{
-    "version": "21.05.2021",
-    "archive": "update2.zip",
-    "is_downloaded": true,
-    "is_unzipped": true
-}
