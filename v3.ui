@@ -1914,6 +1914,55 @@ color: rgb(0, 85, 255);</string>
           </property>
          </spacer>
         </item>
+        <item>
+         <widget class="QLabel" name="label_39">
+          <property name="text">
+           <string>170908 - Подарочный сертификат Gamepark - 500 р.</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_40">
+          <property name="text">
+           <string>170904 - Подарочный сертификат Gamepark - 1000 р.</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_41">
+          <property name="text">
+           <string>170909 - Подарочный сертификат Gamepark - 2000 р.</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_42">
+          <property name="text">
+           <string>170905 - Подарочный сертификат Gamepark - 3000 р.</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_43">
+          <property name="text">
+           <string>170910 - Подарочный сертификат Gamepark - 4000 р.</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_44">
+          <property name="text">
+           <string>170906 - Подарочный сертификат Gamepark - 5000 р.</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_45">
+          <property name="text">
+           <string>170907 - Подарочный сертификат Gamepark - 8000 р.</string>
+          </property>
+         </widget>
+        </item>
        </layout>
       </widget>
       <widget class="QWidget" name="tab_3">
@@ -2431,13 +2480,13 @@ background-color: qradialgradient(spread:reflect, cx:0.5, cy:0.5, radius:0.5, fx
   </connection>
  </connections>
  <buttongroups>
-  <buttongroup name="buttonGroup_4"/>
   <buttongroup name="buttonGroup"/>
+  <buttongroup name="buttonGroup_3"/>
   <buttongroup name="buttonGroup_8"/>
-  <buttongroup name="buttonGroup_6"/>
   <buttongroup name="buttonGroup_2"/>
+  <buttongroup name="buttonGroup_6"/>
   <buttongroup name="buttonGroup_7"/>
   <buttongroup name="buttonGroup_5"/>
-  <buttongroup name="buttonGroup_3"/>
+  <buttongroup name="buttonGroup_4"/>
  </buttongroups>
 </ui>
