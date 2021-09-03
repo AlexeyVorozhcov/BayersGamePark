@@ -1,0 +1,6 @@
+{
+    "version": "21.06.2021",
+    "archive": "TEMPLATES.zip",
+    "is_downloaded": true,
+    "is_unzipped": true
+}

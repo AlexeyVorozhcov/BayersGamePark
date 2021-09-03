@@ -1,5 +1,6 @@
 import logging
-from os.path import abspath, curdir, join
+from os.path import abspath, curdir, join, exists
+from os import mkdir
 from datetime import datetime
 from dateutil.relativedelta import relativedelta
 from my_json import read_dict_from_jsonFile 
@@ -24,6 +25,7 @@ FILE_SETTINGS = "settings.txt"
 # Словарь настроек, загруженный из файла. Если файла нет - пустой словарь.
 SETTINGS_DICT = read_dict_from_jsonFile(FILE_SETTINGS) 
 if not SETTINGS_DICT:
+    logger.debug("SETTINGS DICT не прочитан!")
     print ("SETTINGS DICT не прочитан!")
 
 # Папка запущенной программы
@@ -69,6 +71,10 @@ CERTIFICATE_DEADLINE = datetime.date(datetime.today() + relativedelta(months=CER
 # папка, где хранятся сохраненные заявления
 name_FOLDER_SAVING_CLAIM = join(BASE_PATH, "SAVED FILES" )
 name_FOLDER_SAVING_CLAIM = join(BASE_PATH, overrideConst("name_FOLDER_SAVING_CLAIM", name_FOLDER_SAVING_CLAIM))
+# если папка не существует, создать ее
+if not exists(name_FOLDER_SAVING_CLAIM):
+    logger.debug(f"Папка {name_FOLDER_SAVING_CLAIM} не найдена. Будет создана новая.")
+    mkdir(name_FOLDER_SAVING_CLAIM)
 
 # расширения файлов, в которые сохраняются заявления
 FILE_EXTENSION_SAVING_CLAIM = ".claim"

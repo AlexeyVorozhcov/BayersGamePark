@@ -1,0 +1,6 @@
+{
+    "version": "02.09.2021",
+    "archive": "Buyers.zip",
+    "is_downloaded": true,
+    "is_unzipped": true
+}
